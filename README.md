@@ -34,6 +34,7 @@ Users should be able to:
 ### Links
 
 - Github repo: [https://github.com:Mary2021/SunnysideLandingPage.git](https://github.com:Mary2021/SunnysideLandingPage.git)
+- Live URL: [https://mary2021.github.io/SunnysideLandingPage/](https://mary2021.github.io/SunnysideLandingPage/)
 
 ## My process
 
