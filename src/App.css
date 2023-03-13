@@ -65,13 +65,14 @@
     }
     
     .Menu button {
-      border-radius: 20px;
+      border-radius: 30px;
       background-color: hsl(51, 100%, 49%);
       color: black;
       border: none;
-      padding: 1vh;
-      padding-left: 2vw;
-      padding-right: 2vw;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      padding-left: 6vw;
+      padding-right: 6vw;
       text-transform: uppercase;
       font-weight: bold;
       font-family: 'Fraunces', serif;
