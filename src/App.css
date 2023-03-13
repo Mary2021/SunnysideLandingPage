@@ -10,7 +10,7 @@
     /* align-items: center; */
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: hsl(0, 0%, 100%);
   }
 
     .Logo {
@@ -39,7 +39,7 @@
       width: 0; 
       height: 0; 
       border-left: 20px solid transparent;
-      border-bottom: 20px solid white;
+      border-bottom: 20px solid hsl(0, 0%, 100%);
     }
 
     .Menu {
@@ -50,7 +50,7 @@
       top: 15vh;
       height: 38vh;
       width: 85%;
-      background-color: white;
+      background-color: hsl(0, 0%, 100%);
       margin-left: 7vw;
       align-items:  center;
     }
@@ -306,7 +306,7 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: hsl(0, 0%, 100%);
     }
 
     .Logo {
@@ -326,7 +326,7 @@
     }
 
       .Menu a {
-        color: white;
+        color: hsl(0, 0%, 100%);
         margin-left: 1.5vw;
         margin-right: 1.5vw;
         font-family: 'Barlow', sans-serif;
@@ -334,7 +334,7 @@
       
       .Menu button {
         border-radius: 20px;
-        background-color: white;
+        background-color: hsl(0, 0%, 100%);
         color: black;
         border: none;
         padding: 2vh;
@@ -343,6 +343,12 @@
         text-transform: uppercase;
         font-weight: bold;
         font-family: 'Fraunces', serif;
+      }
+
+      .Menu button:active {
+        color: hsl(0, 0%, 100%);
+        background-color:  hsl(209, 97%, 76%);
+        cursor: pointer;
       }
 
     .Hero {
@@ -405,6 +411,7 @@
 
           .ServiceCardLink:active {
             text-decoration-color: hsl(51, 100%, 49%);
+            cursor: pointer;
           }
         
         .ImageCard {
@@ -505,6 +512,10 @@
     .FooterMenuLink {
       color: hsl(168, 34%, 41%);
     }
+    .FooterMenuLink:active {
+      color: hsl(0, 0%, 100%);
+      cursor: pointer;
+    }
     
     .Icons {
       position: relative;
@@ -514,6 +525,11 @@
       grid-template-columns: auto;
       color:hsl(167, 40%, 24%);
       padding: 20px;
+    }
+
+    .Icons img:active {
+      cursor: pointer;
+      filter: brightness(0) invert(1);
     }
 
     .Attribution {
