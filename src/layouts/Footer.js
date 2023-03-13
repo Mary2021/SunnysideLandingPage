@@ -61,16 +61,16 @@ const Footer = () => {
               </a>
               </div>
             <div className='Icons'>
-              <img src={fb} className="" alt="facebookIcon" ></img>
+              <img src={fb} alt="facebookIcon" ></img>
             </div>
             <div className='Icons'>
-              <img src={instagram} className="" alt="instagramIcon" ></img>
+              <img src={instagram} alt="instagramIcon" ></img>
             </div>
             <div className='Icons'>
-              <img src={twitter} className="" alt="twitterIcon" ></img>
+              <img src={twitter} alt="twitterIcon" ></img>
             </div>
             <div className='Icons'>
-              <img src={pinterest} className="" alt="pinterestIcon" ></img>
+              <img src={pinterest} alt="pinterestIcon" ></img>
             </div>
             <div className='Attribution'>
               Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
